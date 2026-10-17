@@ -1,9 +1,5 @@
-local __lp = game:GetService("Players").LocalPlayer
-local __realKick = __lp.Kick
-__lp.Kick = function(self, ...) warn("[KICK BLOCKED]", ...) end
-
 local __DuskCapturedModules = {
-    ["/raw/dusk_library_test"] = [==[  
+    ["/raw/dusk_library_test"] = [==[
 
 local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
